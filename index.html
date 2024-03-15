@@ -13,24 +13,26 @@
 <body>
 
     <!-- Header -->
-    <div class="logo">
-        <img width="100px" src="images/logo1.png" alt="">
-    </div>
-
-
-    <!-- Header -->
-
-    <!-- Navigation -->
-    <nav>
-        <div id="top" class="nav-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./skills.html">Skills</a></li>
-                <li><a href="./contact.html">Contact Me</a></li>
-                <li><a href="./aboutme.html">About Me</a></li>
-            </ul>
+    <header>
+        <div class="logo">
+            <img width="100px" src="images/logo1.png" alt="">
         </div>
-    </nav>
+    
+    
+        <!-- Header -->
+        
+        <!-- Navigation -->
+        <nav>
+            <div id="top" class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./skills.html">Skills</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                    <li><a href="./aboutme.html">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!-- Navigation -->
 
 
@@ -39,7 +41,7 @@
     <div class="banner">
 
         <div class="title">
-            <h1>Idrees Qureishi</h1>
+            <h1>Idrees Qureishi <audio class="title-audio" controls src="./images/Muhammd_idrees.mp3">Muhammd_idrees</audio></h1>
             <p class="topbio">Learning Web and Mobile App Development</p>
             <br>
              <!-- CV -->
@@ -48,21 +50,15 @@
             </div>
             <!-- CV -->
         
-        </div>
-    
-        
-
+            <video src="./images/video.mp4" controls width="300px">Drone shot view Dummy video</video>
 
         </div>
-
-
+      </div>
     <!-- Banner -->
 
 
 
-    <!-- Title -->
-   
-    <!-- Title -->
+
 
 
 <br>
@@ -73,6 +69,9 @@
 
    <!-- Tables Starts Here -->
    
+   
+   
+
         <section id="table-1">
             <table>
                 <tr>
@@ -100,11 +99,11 @@
             </tr>
         
             <tr>
-                <td>BS Political Science</td>
+                <td colsp>BS Political Science</td>
                 <td>GSSCP</td>
                 <td>Peshawar</td>
                 <td>2020-2024</td>
-                <td>Running in 7<sup>th</sup>Semester</td>
+                <td colspan="2">7<sup>th</sup>Semester in progress</td>
             </tr>
            </table>
         </section>
@@ -134,7 +133,7 @@
                 <!-- Company -->
         
                 Company:
-                <input class="company" type="text" placeholder="Optional"> <br> <br>
+                <input class="company" type="text" placeholder="Optional"> <br>
                 
                 <!-- Company -->
         
@@ -142,7 +141,7 @@
         
                 Email:
                 <input class="email" type="text" required placeholder="Example@mail.com">
-                <br><br>
+                <br>
         
                 <!-- Email -->
         
@@ -179,10 +178,9 @@
                 <!-- Paragraph -->
         
                 <p class="paragraph">Are you an existing customer?</p>
-                Select Your Gender: <br>
-                Male: <input type="radio">
-                Female: <input type="radio">
-                Other: <input type="radio"> <br> <br>
+                Yes: <input type="radio">
+                No: <input type="radio">
+                <br>
                 <!-- Paragraph -->
         
                 <!-- Submit Button -->
@@ -290,16 +288,20 @@
 
 
 
-     <!-- About Me -->
+    <footer>
+         <!-- About Me -->
      <div class="aboutbanner">
         <div class="about">
             <h1 class="aboutme">About Me</h1>
             <p class="about-p">Professional Web Developer-Profile-There is all about me</p>
             <hr>
             <p class="about-bio">I am a seasoned web developer with a proven track record of crafting visually captivating and functionally robust websites. Proficient in HTML, CSS, JavaScript, and an array of frameworks, I excel in translating client concepts into polished, user-centric digital solutions. My approach is driven by a passion for design excellence and a commitment to delivering results that exceed expectations. By seamlessly blending technical expertise with creative flair, I bring client visions to life with precision and ingenuity. <br>
-    
                 With a focus on user experience and accessibility, I ensure that every website I create not only looks stunning but also functions seamlessly across devices and platforms. Whether it's a personal portfolio, an e-commerce platform, or a corporate website, I am dedicated to delivering solutions that elevate your online presence and drive tangible results. Let's collaborate to transform your digital aspirations into reality, bringing your ideas to life in a dynamic and impactful way.</p>
-    
+
+                <!-- rOckf Location -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6132.525506077975!2d71.55739810302609!3d33.99174377361064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d917711bc48fb1%3A0x9538757256098782!2srOck-f!5e0!3m2!1sen!2s!4v1710512472224!5m2!1sen!2s" width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- rOckf Location -->
+
             <hr>
             <div>
                 <a href="https://www.facebook.com/rOckf.022/" target="_blank" class="facebook">Facebook</a>
@@ -314,14 +316,14 @@
     <!-- About Me -->
 
     <!-- Top Icon -->
-    <a href="#top" class="topicon">Top</a>
+    <a href="#top" class="topicon"> <img class="top-img" src="./images/top.png" alt=""></a>
     <!-- Top Icon -->
 
 </div>
 
 <div class="address">
     <address>
-        House # Z-094, Street # 7, Unkown Pesh,awar, Pakistan.
+        rOck-f, Street # 3, Peshawar, Pakistan.
     </address>
 
 </div>
@@ -329,6 +331,7 @@
     <div>
         <p class="Copyright">Copyright Idrees Qureishi 2024 All rights reserved.</p>
     </div>
+    </footer>
 
     
 
